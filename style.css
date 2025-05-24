@@ -38,6 +38,11 @@ a{
     color: black;
 }
 
+a:hover{
+    color:whitesmoke;
+    text-decoration: underline;
+}
+
 li{
     list-style: none;
 }
