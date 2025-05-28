@@ -39,7 +39,7 @@ a{
 }
 
 a:hover{
-    color:rgb(199, 119, 0);
+    color:rgb(226, 0, 196);
     text-decoration: underline;
 }
 
@@ -55,4 +55,9 @@ li{
     display: flex;
     align-items: center;
     padding-left: 30px;
+    color: white;
+}
+
+img{
+    width: 300px;
 }
