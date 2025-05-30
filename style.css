@@ -14,6 +14,10 @@ header{
     margin-inline-end: 100px;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #logo{
     display: flex;
     flex-direction: row;
@@ -113,15 +117,15 @@ li{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-between;
 }
 
 .pratosPrincipais{
-    width: 200px;
+    width: 220px;
     display: flex;
     margin-inline-start: 100px;
     flex-direction: column;
     padding: 0;
-    flex: 1;
 }
 
 .pratosPrincipais img{
@@ -154,10 +158,35 @@ li{
     border-radius: 20px;
     padding: 3px 20px;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .pratosPrincipais a:hover{
     text-decoration: none;
     border: 1px solid rgb(210, 120, 136);
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+}
+
+.barraLateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-inline-end: 100px;
+    margin-left: 150px;
+}
+
+.barraLateral h3{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.barraLateral iframe{
+    width: 448px;
+    height: 252px;
+    border-radius: 20px;
 }
 
