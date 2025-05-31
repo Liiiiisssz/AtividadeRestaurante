@@ -107,15 +107,89 @@
         </section>
 
         <aside class="barraLateral">
-            <h3>Conheça nosso processo de produção:</h3>
-            <iframe src="https://www.youtube.com/embed/Jx7N5Svuw9I?si=yf5wrsy28BRLfIsj" frameborder="0" allowfullscreen></iframe>
-            <p></p>
+            <div class="video">
+                <h3>Conheça nosso processo de produção:</h3>
+                <iframe src="https://www.youtube.com/embed/Jx7N5Svuw9I?si=yf5wrsy28BRLfIsj" frameborder="0" allowfullscreen></iframe>
+                <p>
+                    Descubra como nasce a magia dos nossos sorvetes!
+                    Feitos com ingredientes selecionados e muito amor.
+                </p>
+            </div>
+
+            <div class="horario">
+                <h3>Horário de Funcionamento:</h3>
+                <p>Terça a Sexta:<strong>10h00 - 19h00</strong></p>
+                <p>Sábado: <strong>13h00 - 19h00</strong></p>
+                <p>Domingo: <strong>13h00 - 16h00</strong></p>
+            </div>
+            
+            <h3 id="reserva">Reserva:</h3>
+            <form class="formulario">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="  Seu nome completo">
+                <br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email" placeholder="  seu@gmail.com">
+                <br>
+                <label for="data">Data:</label><br>
+                <input type="date" id="data" name="data"></input>
+                <br>
+                <label for="horario">Horário:</label><br>
+                <input type="time" id="horario" name="horario">
+                <br>
+                <label for="pessoas">Número de pessoas:</label><br>
+                <select>
+                    <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                    <option value="4">4</option><option value="5">5</option>
+                </select>
+                <br>
+                <label for="info">Observações:</label><br>
+                <textarea type="text" id="info" name="info" placeholder="Informações adicionais"></textarea>
+                <br>
+                <input type="submit" value="Reservar" id="reservaForm">
+            </form>
+            
         </aside>
 
     </div>
     
-
     <footer>
+        <div class="footerConteudo">
+            <div id="logoFooter">
+                <div id="logo">
+                    <img src="assets/logo.png" alt="">
+                    <p>Glacé</p>
+                </div>
+                <p>Doce como o seu melhor momento.</p>
+            </div>
+            
+            <div class="linksFooter">
+                <h4>Links Rápidos:</h4>
+                <nav><ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="#">Reservar</a></li>
+                </ul></nav>
+            </div>
+
+            <div class="horarioFooter">
+                <h4>Horário de Funcionamento:</h4>
+                <p>Terça a Sexta:<strong>10h00 - 19h00</strong></p>
+                <p>Sábado: <strong>13h00 - 19h00</strong></p>
+                <p>Domingo: <strong>13h00 - 16h00</strong></p>
+            </div>
+
+            <div class="contatoFooter">
+                <h4>Contato:</h4>
+                <p>Marechal Deodoro da Fonseca, 1234, Centro, Jaraguá do Sul</p>
+                <p>(47)9876-5432</p>
+                <p>contato@glace.com</p>
+            </div>
+        </div>
+        
+        <p id="direitos">© 2025 Glacé. Todos os direitos reservados.</p>
 
     </footer>
 </body>
