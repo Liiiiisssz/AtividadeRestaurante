@@ -312,6 +312,20 @@ footer{
     display: flex;
 }
 
+.redesFooter h4{
+    margin-bottom: 15px;
+}
+
+.redesFooter p{
+    font-size: 14px;
+    margin-bottom: 23px;
+}
+
+.redesFooter img{
+    height: 14px;
+    margin-right: 10px;
+}
+
 .contatoFooter{
     flex-direction: column;
     margin-inline-end: 100px;
@@ -327,8 +341,48 @@ footer{
     margin-bottom: 15px;
 }
 
+.contatoFooter img{
+    height: 14px;
+    margin-right: 10px;
+}
+
 #direitos{
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+
+/* CARDAPIO */
+
+#tituloCardapio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tituloCardapio h1{
+    color: rgb(210, 120, 136);
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+#tituloCardapio p{
+    text-align: center;
+    width: 600px;
+    font-size: 18px;
+}
+
+.sessaoCardapio{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sessaoCardapio h2{
+    color: rgb(210, 120, 136);
+    margin-inline-start: 100px;
+}
+
+.itensMenu{
+
 }
