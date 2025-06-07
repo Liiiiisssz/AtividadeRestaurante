@@ -396,12 +396,21 @@ footer{
     color: rgb(210, 120, 136);
     margin-inline-start: 100px;
     margin-bottom: 25px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-size: 30px;
 }
 
 .titulosMenu:first-child{
     margin-top: 0;
+}
+
+.titulosMenu::after{
+    content: '';
+    display: flex;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(210, 120, 136);
+    margin-top: 5px;
 }
 
 .itensMenu{
